@@ -15,15 +15,8 @@ mod tests {
 
     #[test]
     fn example() {
-        let result = process(
-            "3   4
-4   3
-2   5
-1   3
-3   9
-3   3",
-        );
+        let result = process("");
 
-        assert_eq!(result, "11");
+        assert_eq!(result, "");
     }
 }
