@@ -5,7 +5,7 @@ fn main() {
 }
 
 fn process(input: &str) -> String {
-    todo!()
+    todo!("{input}")
 }
 
 #[cfg(test)]
